@@ -1,0 +1,36 @@
+/*
+@author ;- Muhammed alaraby
+@Date ;- 21/10/19
+@Info ;- website Sass variables
+*/
+
+
+// Fonts
+$body-font:'Ubuntu', sans-serif;
+$paragraph-font:'Dosis', sans-serif;
+$header-font: 'Roboto', sans-serif;
+$list-font: 'Lato', sans-serif;
+
+// Colors
+$primary-color:#fff;
+$main-color:#e67e22;
+$light-color:#f4f4f4;
+$medium-color:#ccc;
+$dark-color:#333;
+$lightblue-color:#008ed6;
+
+// Website Scales
+$website-width: 1480px;
+$main-font-size:62.50%;
+$medium-font-size:1.8rem;
+$larg-font-size:2rem;
+
+
+ // Set Text Color
+ @function set-text-color($color){
+    @if(lightness($color) > 50) {
+        @return $dark-color;
+    } @else {
+        @return $primary-color;
+    }
+ }

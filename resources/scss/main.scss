@@ -1,0 +1,21 @@
+/*
+@author ;- Muhammed alaraby
+@Date ;- 21/10/19
+@Info ;- Main style sheet
+*/
+
+//Include files
+@import 'config';
+
+
+html{
+    font-size: 62.50%;
+    background-color: $dark-color;
+    color: set-text-color($dark-color);
+    text-rendering: optimizeLegibility;
+}
+
+
+body{
+    background: $dark-color;
+}
