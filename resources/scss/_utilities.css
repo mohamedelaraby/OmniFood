@@ -1,0 +1,54 @@
+/*
+@author ;- Muhammed alaraby
+@Date ;- 21/10/19
+@Info ;- website Sass variables
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+/*[ Buttons]*/
+.btn:visited,
+.btn:link,
+input[type="submit"] {
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-radius: 20rem;
+  text-align: center;
+  border: 0.1rem solid #f88018;
+}
+
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #f88018;
+  color: #fff;
+  border: 0.1rem solid #f88018;
+  -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}

@@ -8,13 +8,135 @@
 @Date ;- 21/10/19
 @Info ;- website Sass variables
 */
-html {
-  font-size: 62.50%;
-  background-color: #333;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+@author ;- Muhammed alaraby
+@Date ;- 21/10/19
+@Info ;- website Sass variables
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
   color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+/*[ Buttons]*/
+.btn:visited,
+.btn:link,
+input[type="submit"] {
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-radius: 20rem;
+  text-align: center;
+  border: 0.1rem solid #f88018;
+}
+
+.btn:hover,
+.btn:active,
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #f88018;
+  color: #fff;
+  border: 0.1rem solid #f88018;
+  -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+html {
+  font-size: 62.5%;
   text-rendering: optimizeLegibility;
 }
 
 body {
-  background: #333;
+  background: #fff;
+  font-family: "Ubuntu", sans-serif;
+  width: 1280px;
+}
+
+#header {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.575)), url(/resources/dist/img/hero.jpg);
+  background-position: 50%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#header .header-logo {
+  height: 10rem;
+  width: auto;
+}
+
+#header .header-list-item {
+  display: inline-block;
+  margin-left: 4rem;
+}
+
+#header .header-list-link:link, #header .header-list-link:visited {
+  padding: 0.8rem 0rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 0.2rem solid transparent;
+  -webkit-transition: border-bottom 0.3s;
+  transition: border-bottom 0.3s;
+}
+
+#header .header-list-link:hover, #header .header-list-link:active {
+  border-bottom: 0.2rem solid #f88018;
+}
+
+#header .header-content-box {
+  position: absolute;
+  width: 114rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-40%, -50%);
+  transform: translate(-40%, -50%);
+  font-size: 2rem;
+}
+
+#header .header-content-box-head {
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 200%;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+
+#header .header-content-box-link:link, #header .header-content-box-link:visited {
+  background: #f88018;
+  border: 0.2rem solid #f88018;
+  color: #fff;
+  margin-right: 1rem;
 }

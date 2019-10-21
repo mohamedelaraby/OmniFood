@@ -3,3 +3,7 @@
 @Date ;- 21/10/19
 @Info ;- website Sass variables
 */
+* {
+  padding: 0;
+  margin: 0;
+}

@@ -1,22 +1,7 @@
-/*
-@author ;- Muhammed alaraby
-@Date ;- 21/10/19
-@Info ;- Main style sheet
-*/
-/*
-@author ;- Muhammed alaraby
-@Date ;- 21/10/19
-@Info ;- website Sass variables
-*/
 * {
   padding: 0;
   margin: 0; }
 
-/*
-@author ;- Muhammed alaraby
-@Date ;- 21/10/19
-@Info ;- website Sass variables
-*/
 * {
   padding: 0;
   margin: 0; }
@@ -28,19 +13,14 @@ a {
 ul {
   list-style: none; }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: 300;
   text-transform: uppercase; }
 
 img {
   width: 100%; }
 
-/*[ Buttons]*/
-.btn:visited,
-.btn:link,
-input[type="submit"] {
+.btn:visited, .btn:link, input[type="submit"] {
   display: inline-block;
   padding: 1rem 3rem;
   font-weight: 300;
@@ -50,10 +30,7 @@ input[type="submit"] {
   text-align: center;
   border: 0.1rem solid #f88018; }
 
-.btn:hover,
-.btn:active,
-input[type="submit"]:hover,
-input[type="submit"]:active {
+.btn:hover, .btn:active, input[type="submit"]:hover, input[type="submit"]:active {
   background-color: #f88018;
   color: #fff;
   border: 0.1rem solid #f88018;
@@ -66,7 +43,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu",sans-serif;
   width: 1280px; }
 
 #header {
@@ -91,7 +68,7 @@ body {
   text-decoration: none;
   font-size: 1.8rem;
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato",sans-serif;
   text-transform: uppercase;
   border-bottom: 0.2rem solid transparent;
   -webkit-transition: border-bottom 0.3s;
